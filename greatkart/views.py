@@ -23,7 +23,7 @@ def home(request):
     return render(request, 'home.html', context)
 
 def specialoffer(request):
-    cources = Category.objects.filter(category_name="course").first()
+    course = Category.objects.filter(category_name="course").first()
     products = Product.objects.filter(category=course)
     
     
