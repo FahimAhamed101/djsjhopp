@@ -1,0 +1,51 @@
+
+
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+
+<!-- ========================= SECTION MAIN ========================= -->
+<section class="section-intro padding-y-sm">
+<div class="container">
+
+
+
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION MAIN END// ========================= -->
+
+<!-- ========================= SECTION  ========================= -->
+<section class="section-name padding-y-sm">
+<div class="container pt-2">
+
+<header class="section-heading">
+	<a href="{% url 'store' %}" class="btn btn-outline-primary float-right">{% trans "See all" %}</a>
+	<h3 class="section-title text-center">	
+        <p>{% trans "contact us" %}</p>
+    
+
+    
+    </h3>
+</header><!-- sect-heading -->
+<div class="row text-center">
+
+	<div >
+        <p class="">
+
+            <p>公司電話 (Tel): 35292771</p> 
+
+            <p>公司地址 (Address) :​
+         
+         香港葵芳葵德街16至26號金德工業大廈1座14樓20室</p> 
+         
+         Room 1420, 14/F, Block 1, Golden Industrial Building, No. 16-26 Kwai Tak Street, Kwai Chung, NT
+         
+         Email : info@hongkongccf.org.hk 
+         </p>
+	</div> <!-- col.// -->
+
+</div> 
+{% endblock %}

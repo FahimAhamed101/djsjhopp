@@ -1,0 +1,516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-15 17:10+0600\n"
+"PO-Revision-Date: 2023-06-15 16:02+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: .\greatkart\settings.py:204
+msgid "English"
+msgstr "英语"
+
+#: .\greatkart\settings.py:206
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: .\greatkart\urls.py:24
+msgid "admin/"
+msgstr "管理员/"
+
+#: .\news\widgets.py:6
+msgid "Remove Image"
+msgstr "删除图像"
+
+#: .\store\models.py:10
+msgid "product_name"
+msgstr "产品名称"
+
+#: .\store\models.py:12
+msgid "description"
+msgstr "描述"
+
+#: .\store\models.py:13
+msgid "price"
+msgstr "价格"
+
+#: .\templates\accounts\change_password.html:15
+msgid "Change Your Password"
+msgstr "更改您的密码"
+
+#: .\templates\accounts\change_password.html:25
+msgid "Current Password"
+msgstr "当前密码"
+
+#: .\templates\accounts\change_password.html:29
+msgid "Create new password"
+msgstr "创建新密码"
+
+#: .\templates\accounts\change_password.html:33
+msgid "Confirm new password"
+msgstr "确认新密码"
+
+#: .\templates\accounts\dashboard.html:15
+msgid "Logged in as"
+msgstr "登录为"
+
+#: .\templates\accounts\dashboard.html:24
+msgid "Total Orders"
+msgstr "总订单"
+
+#: .\templates\accounts\dashboard.html:26
+msgid "View Orders"
+msgstr "查看订单"
+
+#: .\templates\accounts\edit_profile.html:15
+msgid "Edit your profile"
+msgstr "编辑你的个人资料"
+
+#: .\templates\accounts\edit_profile.html:28
+#: .\templates\store\checkout.html:21
+msgid "First Name"
+msgstr "名字"
+
+#: .\templates\accounts\edit_profile.html:32
+#: .\templates\store\checkout.html:25
+msgid "Last Name"
+msgstr "姓氏"
+
+#: .\templates\accounts\edit_profile.html:38
+#: .\templates\accounts\register.html:35 .\templates\store\checkout.html:35
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: .\templates\accounts\edit_profile.html:42
+msgid "Profile Picture"
+msgstr "头像"
+
+#: .\templates\accounts\edit_profile.html:47
+#: .\templates\accounts\edit_profile.html:51
+msgid "Address Line"
+msgstr "地址线"
+
+#: .\templates\accounts\edit_profile.html:56
+#: .\templates\store\checkout.html:51
+msgid "City"
+msgstr "城市"
+
+#: .\templates\accounts\edit_profile.html:60
+#: .\templates\store\checkout.html:55
+msgid "State"
+msgstr "状态"
+
+#: .\templates\accounts\edit_profile.html:64
+#: .\templates\store\checkout.html:59
+msgid "Country"
+msgstr "国家"
+
+#: .\templates\accounts\forgotPassword.html:24
+msgid "Got password"
+msgstr "获得密码"
+
+#: .\templates\accounts\forgotPassword.html:24
+#: .\templates\accounts\login.html:39
+msgid "Login"
+msgstr "登录"
+
+#: .\templates\accounts\forgotPassword.html:28
+msgid "Submit"
+msgstr "提交"
+
+#: .\templates\accounts\forgotPassword.html:34
+#: .\templates\accounts\login.html:46
+#: .\templates\accounts\resetPassword.html:34
+msgid "Dont have account"
+msgstr "没有帐号"
+
+#: .\templates\accounts\forgotPassword.html:34
+#: .\templates\accounts\login.html:46 .\templates\accounts\register.html:12
+#: .\templates\accounts\resetPassword.html:34
+#, fuzzy
+#| msgid "Sign up"
+msgid "Sign up"
+msgstr "登入"
+
+#: .\templates\accounts\login.html:35
+msgid "Forgot password"
+msgstr "忘记密码"
+
+#: .\templates\accounts\login.html:40
+msgid "Login with"
+msgstr "登录"
+
+#: .\templates\accounts\my_orders.html:15
+msgid "Your order history"
+msgstr "您的订单记录"
+
+#: .\templates\accounts\my_orders.html:24
+#: .\templates\accounts\order_detail.html:39
+msgid "Order"
+msgstr "订单"
+
+#: .\templates\accounts\my_orders.html:25
+msgid "Billing Name"
+msgstr "账单名称"
+
+#: .\templates\accounts\my_orders.html:26
+msgid "Phone"
+msgstr "电话"
+
+#: .\templates\accounts\my_orders.html:27
+msgid "Order Total"
+msgstr "订单总计"
+
+#: .\templates\accounts\my_orders.html:28
+msgid "Date"
+msgstr "日期"
+
+#: .\templates\accounts\order_detail.html:40
+msgid "Transaction"
+msgstr "交易"
+
+#: .\templates\accounts\order_detail.html:41
+msgid "Order Date"
+msgstr "订购日期"
+
+#: .\templates\accounts\order_detail.html:42
+msgid "Status"
+msgstr "状态"
+
+#: .\templates\accounts\order_detail.html:52
+#: .\templates\orders\order_complete.html:61
+#, fuzzy
+#| msgid "All Products"
+msgid "Products"
+msgstr "所有产品"
+
+#: .\templates\accounts\order_detail.html:53
+#: .\templates\orders\order_complete.html:62
+msgid "Qty"
+msgstr "数量"
+
+#: .\templates\accounts\order_detail.html:54
+#: .\templates\orders\order_complete.html:63
+msgid "Total"
+msgstr "总计"
+
+#: .\templates\accounts\order_detail.html:93
+#: .\templates\orders\order_complete.html:102
+msgid "Thank you for shopping with us"
+msgstr "感谢您与我们一起购物"
+
+#: .\templates\accounts\register.html:19
+msgid "First name"
+msgstr "名字"
+
+#: .\templates\accounts\register.html:23
+msgid "Last name"
+msgstr "姓氏"
+
+#: .\templates\accounts\register.html:31
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: .\templates\accounts\register.html:41
+msgid "Create password"
+msgstr "创建密码"
+
+#: .\templates\accounts\register.html:45
+msgid "Repeat password"
+msgstr "重复密码"
+
+#: .\templates\accounts\register.html:50
+#, fuzzy
+#| msgid "Register"
+msgid " Register "
+msgstr "登记"
+
+#: .\templates\accounts\register.html:57
+msgid "Have an account"
+msgstr "有一个帐户"
+
+#: .\templates\accounts\register.html:57
+msgid "Log In"
+msgstr "登录"
+
+#: .\templates\accounts\resetPassword.html:15
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: .\templates\accounts\resetPassword.html:28
+msgid "Reset"
+msgstr "重置"
+
+#: .\templates\contact.html:25 .\templates\specialoffer.html:25
+msgid "See all"
+msgstr "查看全部"
+
+#: .\templates\contact.html:27
+#, fuzzy
+#| msgid "Contact"
+msgid "contact us"
+msgstr "接触"
+
+#: .\templates\home.html:28
+msgid "Popular products"
+msgstr "热门产品"
+
+#: .\templates\home.html:54
+msgid "News"
+msgstr "消息"
+
+#: .\templates\home.html:90
+msgid "View"
+msgstr "查看"
+
+#: .\templates\includes\dashboard_sidebar.html:6
+#: .\templates\includes\navbar.html:96
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: .\templates\includes\dashboard_sidebar.html:7
+msgid "My Orders"
+msgstr "我的订单"
+
+#: .\templates\includes\dashboard_sidebar.html:8
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: .\templates\includes\dashboard_sidebar.html:9
+msgid " Change Password"
+msgstr "更改密码"
+
+#: .\templates\includes\navbar.html:16
+msgid "Language"
+msgstr "语言"
+
+#: .\templates\includes\navbar.html:40 .\templates\store\checkout.html:31
+msgid "Email"
+msgstr "电子邮件"
+
+#: .\templates\includes\navbar.html:41
+msgid "Contact"
+msgstr "接触"
+
+#: .\templates\includes\navbar.html:41
+msgid "us"
+msgstr "我们"
+
+#: .\templates\includes\navbar.html:58
+msgid "All category"
+msgstr "所有类别"
+
+#: .\templates\includes\navbar.html:61 .\templates\store\store.html:37
+msgid "All Products"
+msgstr "所有产品"
+
+#: .\templates\includes\navbar.html:68
+msgid "Store"
+msgstr "店铺"
+
+#: .\templates\includes\navbar.html:86
+msgid "Welcome guest"
+msgstr "欢迎客人"
+
+#: .\templates\includes\navbar.html:88
+msgid "Sign in"
+msgstr "登入"
+
+#: .\templates\includes\navbar.html:89
+msgid "Register"
+msgstr "登记"
+
+#: .\templates\includes\navbar.html:94
+msgid "Welcome"
+msgstr "欢迎"
+
+#: .\templates\includes\navbar.html:97
+msgid "Logout"
+msgstr "注销"
+
+#: .\templates\news\news.html:24
+msgid "News updates"
+msgstr "新闻更新"
+
+#: .\templates\news\news.html:54
+msgid "There are no news articles to display"
+msgstr "没有要显示的新闻文章"
+
+#: .\templates\orders\order_complete.html:9
+msgid "Payment Successful"
+msgstr "支付成功"
+
+#: .\templates\orders\order_complete.html:12
+msgid "Shop more"
+msgstr "选购更多"
+
+#: .\templates\orders\order_complete.html:34
+msgid "Invoiced To"
+msgstr "开票至"
+
+#: .\templates\orders\order_complete.html:85
+msgid "Sub Total"
+msgstr "小计"
+
+#: .\templates\orders\order_complete.html:89
+msgid "Tax"
+msgstr "税"
+
+#: .\templates\orders\order_complete.html:94
+msgid "Grand Total"
+msgstr "累计"
+
+#: .\templates\orders\payments.html:11
+msgid "Review Your Order and Make Payment"
+msgstr "查看您的订单并付款"
+
+#: .\templates\orders\payments.html:16 .\templates\store\checkout.html:16
+msgid "Billing Address"
+msgstr "帐单地址"
+
+#: .\templates\orders\payments.html:32
+msgid "Payment Method"
+msgstr "付款方式"
+
+#: .\templates\orders\payments.html:39
+#, fuzzy
+#| msgid "All Products"
+msgid "Review Products"
+msgstr "所有产品"
+
+#: .\templates\orders\payments.html:44 .\templates\store\cart.html:24
+#, fuzzy
+#| msgid "All Products"
+msgid "Product"
+msgstr "所有产品"
+
+#: .\templates\orders\payments.html:45 .\templates\store\cart.html:25
+#: .\templates\store\checkout.html:81
+msgid "Quantity"
+msgstr "数量"
+
+#: .\templates\orders\payments.html:46 .\templates\store\cart.html:26
+#: .\templates\store\checkout.html:82
+msgid "Price"
+msgstr "价格"
+
+#: .\templates\specialoffer.html:27
+msgid "Special Offers and events"
+msgstr "特别优惠和活动"
+
+#: .\templates\specialoffer.html:45
+msgid "View Details"
+msgstr "查看详情"
+
+#: .\templates\specialoffer.html:52
+msgid "No result found. Please try again."
+msgstr "没有找到结果。请再试一次。"
+
+#: .\templates\store\cart.html:12
+msgid "Your Shopping Cart is Empty"
+msgstr "你的购物车是空的"
+
+#: .\templates\store\cart.html:15 .\templates\store\checkout.html:123
+msgid "Continue Shopping"
+msgstr "继续购物"
+
+#: .\templates\store\cart.html:72
+msgid "Remove"
+msgstr "消除"
+
+#: .\templates\store\checkout.html:41
+msgid "Address Line 1"
+msgstr "地址行 1"
+
+#: .\templates\store\checkout.html:45
+msgid "Address Line 2"
+msgstr "地址行 2"
+
+#: .\templates\store\checkout.html:64
+msgid "Order Note"
+msgstr "订单备注"
+
+#: .\templates\store\checkout.html:122
+msgid "Place Order"
+msgstr "下订单"
+
+#: .\templates\store\product_detail.html:58
+msgid "Out of Stock"
+msgstr "缺货"
+
+#: .\templates\store\product_detail.html:60
+msgid "Add to Cart"
+msgstr "添加到购物车"
+
+#: .\templates\store\product_detail.html:78
+msgid "Write Your Review"
+msgstr "写下您的评论"
+
+#: .\templates\store\product_detail.html:82
+msgid "How do you rate this product"
+msgstr "你如何评价这个产品"
+
+#: .\templates\store\product_detail.html:107
+msgid "You must purchase this product to post a review."
+msgstr "您必须购买此产品才能发表评论."
+
+#: .\templates\store\product_detail.html:110
+msgid "Login now"
+msgstr "现在登录"
+
+#: .\templates\store\product_detail.html:126
+msgid "reviews"
+msgstr "评论"
+
+#: .\templates\store\store.html:9
+msgid "Search Result"
+msgstr "搜索结果"
+
+#: .\templates\store\store.html:11
+#, fuzzy
+#| msgid "Store"
+msgid "Our Store"
+msgstr "店铺"
+
+#: .\templates\store\store.html:30
+msgid "Categories"
+msgstr "类别"
+
+#: .\templates\store\store.html:52
+msgid "Price range"
+msgstr "价格范围"
+
+#: .\templates\store\store.html:60
+msgid "Min"
+msgstr "最小值"
+
+#: .\templates\store\store.html:91
+msgid "Apply"
+msgstr "申请"
+
+#: .\templates\store\store.html:104
+msgid "items found"
+msgstr "物品已找到"
+
+#: .\templates\store\store.html:133
+msgid "No result found. Please try again"
+msgstr "没有找到结果。请再试一次"
+
+#: .\templates\store\store.html:143 .\templates\store\store.html:145
+msgid "Previous"
+msgstr "以前的"
+
+#: .\templates\store\store.html:157 .\templates\store\store.html:159
+msgid "Next"
+msgstr "下一个"
