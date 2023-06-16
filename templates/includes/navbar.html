@@ -93,7 +93,12 @@
           <div class="widget-header">
             <small class="title text-muted">{% trans "Welcome" %} {{user.first_name}}!</small>
             <div>
+
+              {% if user.is_admin %}
+              <a href="/admin">{% trans "Dashboard" %}</a> <span class="dark-transp"> | </span>
+              {% else %}
               <a href="{% url 'dashboard' %}">{% trans "Dashboard" %}</a> <span class="dark-transp"> | </span>
+              {% endif %}
               <a href="{% url 'logout' %}"> {% trans "Logout" %}</a>
             </div>
           </div>
