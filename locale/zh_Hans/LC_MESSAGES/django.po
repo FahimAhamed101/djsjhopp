@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 19:56+0600\n"
+"POT-Creation-Date: 2023-06-17 16:19+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,10 @@ msgstr "英语"
 #: .\greatkart\settings.py:206
 msgid "Simplified Chinese"
 msgstr "简体中文"
+
+#: .\greatkart\settings.py:207
+msgid "Traditional Chinese"
+msgstr ""
 
 #: .\greatkart\urls.py:24
 msgid "admin/"
@@ -45,6 +49,26 @@ msgstr "描述"
 #: .\store\models.py:13
 msgid "price"
 msgstr "价格"
+
+#: .\templates\Invoice.html:24 .\templates\Quotation.html:24
+#: .\templates\Receipt.html:24 .\templates\contact.html:25
+#: .\templates\specialoffer.html:25
+msgid "See all"
+msgstr "查看全部"
+
+#: .\templates\Invoice.html:26
+#, fuzzy
+#| msgid "Invoiced To"
+msgid "Invoice page"
+msgstr "开票至"
+
+#: .\templates\Quotation.html:26
+msgid "Quotation page"
+msgstr ""
+
+#: .\templates\Receipt.html:26
+msgid "Receipt page"
+msgstr ""
 
 #: .\templates\accounts\change_password.html:15
 msgid "Change Your Password"
@@ -251,10 +275,6 @@ msgstr "重置密码"
 msgid "Reset"
 msgstr "重置"
 
-#: .\templates\contact.html:25 .\templates\specialoffer.html:25
-msgid "See all"
-msgstr "查看全部"
-
 #: .\templates\contact.html:27
 #, fuzzy
 #| msgid "Contact"
@@ -274,7 +294,7 @@ msgid "View"
 msgstr "查看"
 
 #: .\templates\includes\dashboard_sidebar.html:6
-#: .\templates\includes\navbar.html:96
+#: .\templates\includes\navbar.html:101 .\templates\includes\navbar.html:114
 msgid "Dashboard"
 msgstr "仪表板"
 
@@ -318,23 +338,41 @@ msgstr "所有产品"
 msgid "Store"
 msgstr "店铺"
 
-#: .\templates\includes\navbar.html:86
+#: .\templates\includes\navbar.html:88
 msgid "Welcome guest"
 msgstr "欢迎客人"
 
-#: .\templates\includes\navbar.html:88
+#: .\templates\includes\navbar.html:90
 msgid "Sign in"
 msgstr "登入"
 
-#: .\templates\includes\navbar.html:89
+#: .\templates\includes\navbar.html:91
 msgid "Register"
 msgstr "登记"
 
-#: .\templates\includes\navbar.html:94
+#: .\templates\includes\navbar.html:96
 msgid "Welcome"
 msgstr "欢迎"
 
-#: .\templates\includes\navbar.html:97
+#: .\templates\includes\navbar.html:104
+msgid "More"
+msgstr ""
+
+#: .\templates\includes\navbar.html:107
+msgid "Quotation"
+msgstr ""
+
+#: .\templates\includes\navbar.html:108
+#, fuzzy
+#| msgid "Invoiced To"
+msgid "Invoice"
+msgstr "开票至"
+
+#: .\templates\includes\navbar.html:109
+msgid "Receipt"
+msgstr ""
+
+#: .\templates\includes\navbar.html:116
 msgid "Logout"
 msgstr "注销"
 
@@ -444,31 +482,31 @@ msgstr "订单备注"
 msgid "Place Order"
 msgstr "下订单"
 
-#: .\templates\store\product_detail.html:58
+#: .\templates\store\product_detail.html:60
 msgid "Out of Stock"
 msgstr "缺货"
 
-#: .\templates\store\product_detail.html:60
+#: .\templates\store\product_detail.html:62
 msgid "Add to Cart"
 msgstr "添加到购物车"
 
-#: .\templates\store\product_detail.html:78
+#: .\templates\store\product_detail.html:80
 msgid "Write Your Review"
 msgstr "写下您的评论"
 
-#: .\templates\store\product_detail.html:82
+#: .\templates\store\product_detail.html:84
 msgid "How do you rate this product"
 msgstr "你如何评价这个产品"
 
-#: .\templates\store\product_detail.html:107
+#: .\templates\store\product_detail.html:109
 msgid "You must purchase this product to post a review."
 msgstr "您必须购买此产品才能发表评论."
 
-#: .\templates\store\product_detail.html:110
+#: .\templates\store\product_detail.html:112
 msgid "Login now"
 msgstr "现在登录"
 
-#: .\templates\store\product_detail.html:126
+#: .\templates\store\product_detail.html:128
 msgid "reviews"
 msgstr "评论"
 

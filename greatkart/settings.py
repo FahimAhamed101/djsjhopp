@@ -203,7 +203,8 @@ from django.utils.translation import gettext_lazy as _
 LANGUAGES = (
     ('en', _('English')),
     
-     ('zh-hans', _('Simplified Chinese')),
+     ('zh-hans', _('Simplified Chinese')),  
+     ('zh-hant', _('Traditional Chinese')),
 )
 
 LANGUAGE_CODE = 'en'

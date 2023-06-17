@@ -16,522 +16,522 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: .\greatkart\settings.py:204
 msgid "English"
-msgstr "英语"
+msgstr "英語"
 
 #: .\greatkart\settings.py:206
 msgid "Simplified Chinese"
-msgstr ""
+msgstr "簡體中文"
 
 #: .\greatkart\settings.py:207
 msgid "Traditional Chinese"
-msgstr ""
+msgstr "繁體中文"
 
 #: .\greatkart\urls.py:24
 msgid "admin/"
-msgstr ""
+msgstr "行政"
 
 #: .\news\widgets.py:6
 msgid "Remove Image"
-msgstr ""
+msgstr "刪除圖像"
 
 #: .\store\models.py:10
 msgid "product_name"
-msgstr ""
+msgstr "產品名稱"
 
 #: .\store\models.py:12
 msgid "description"
-msgstr ""
+msgstr "描述"
 
 #: .\store\models.py:13
 msgid "price"
-msgstr ""
+msgstr "價格"
 
 #: .\templates\Invoice.html:24 .\templates\Quotation.html:24
 #: .\templates\Receipt.html:24 .\templates\contact.html:25
 #: .\templates\specialoffer.html:25
 msgid "See all"
-msgstr ""
+msgstr "查看全部"
 
 #: .\templates\Invoice.html:26
 msgid "Invoice page"
-msgstr ""
+msgstr "發票頁"
 
 #: .\templates\Quotation.html:26
 msgid "Quotation page"
-msgstr ""
+msgstr "報價頁面"
 
 #: .\templates\Receipt.html:26
 msgid "Receipt page"
-msgstr ""
+msgstr "收據頁"
 
 #: .\templates\accounts\change_password.html:15
 msgid "Change Your Password"
-msgstr ""
+msgstr "更改您的密碼"
 
 #: .\templates\accounts\change_password.html:25
 msgid "Current Password"
-msgstr ""
+msgstr "當前密碼"
 
 #: .\templates\accounts\change_password.html:29
 msgid "Create new password"
-msgstr ""
+msgstr "創建新密碼"
 
 #: .\templates\accounts\change_password.html:33
 msgid "Confirm new password"
-msgstr ""
+msgstr "確認新密碼"
 
 #: .\templates\accounts\dashboard.html:15
 msgid "Logged in as"
-msgstr ""
+msgstr "登錄為"
 
 #: .\templates\accounts\dashboard.html:24
 msgid "Total Orders"
-msgstr ""
+msgstr "總訂單"
 
 #: .\templates\accounts\dashboard.html:26
 msgid "View Orders"
-msgstr ""
+msgstr "查看訂單"
 
 #: .\templates\accounts\edit_profile.html:15
 msgid "Edit your profile"
-msgstr ""
+msgstr "編輯您的個人資料"
 
 #: .\templates\accounts\edit_profile.html:28
 #: .\templates\store\checkout.html:21
 msgid "First Name"
-msgstr ""
+msgstr "名"
 
 #: .\templates\accounts\edit_profile.html:32
 #: .\templates\store\checkout.html:25
 msgid "Last Name"
-msgstr ""
+msgstr "姓"
 
 #: .\templates\accounts\edit_profile.html:38
 #: .\templates\accounts\register.html:35 .\templates\store\checkout.html:35
 msgid "Phone Number"
-msgstr ""
+msgstr "電話號碼"
 
 #: .\templates\accounts\edit_profile.html:42
 msgid "Profile Picture"
-msgstr ""
+msgstr "頭像"
 
 #: .\templates\accounts\edit_profile.html:47
 #: .\templates\accounts\edit_profile.html:51
 msgid "Address Line"
-msgstr ""
+msgstr "地址欄"
 
 #: .\templates\accounts\edit_profile.html:56
 #: .\templates\store\checkout.html:51
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #: .\templates\accounts\edit_profile.html:60
 #: .\templates\store\checkout.html:55
 msgid "State"
-msgstr ""
+msgstr "狀態"
 
 #: .\templates\accounts\edit_profile.html:64
 #: .\templates\store\checkout.html:59
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #: .\templates\accounts\forgotPassword.html:24
 msgid "Got password"
-msgstr ""
+msgstr "得到密碼"
 
 #: .\templates\accounts\forgotPassword.html:24
 #: .\templates\accounts\login.html:39
 msgid "Login"
-msgstr ""
+msgstr "登錄"
 
 #: .\templates\accounts\forgotPassword.html:28
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: .\templates\accounts\forgotPassword.html:34
 #: .\templates\accounts\login.html:46
 #: .\templates\accounts\resetPassword.html:34
 msgid "Dont have account"
-msgstr ""
+msgstr "沒有帳號"
 
 #: .\templates\accounts\forgotPassword.html:34
 #: .\templates\accounts\login.html:46 .\templates\accounts\register.html:12
 #: .\templates\accounts\resetPassword.html:34
 msgid "Sign up"
-msgstr ""
+msgstr "報名"
 
 #: .\templates\accounts\login.html:35
 msgid "Forgot password"
-msgstr ""
+msgstr "忘記密碼"
 
 #: .\templates\accounts\login.html:40
 msgid "Login with"
-msgstr ""
+msgstr "登入"
 
 #: .\templates\accounts\my_orders.html:15
 msgid "Your order history"
-msgstr ""
+msgstr "您的訂單歷史"
 
 #: .\templates\accounts\my_orders.html:24
 #: .\templates\accounts\order_detail.html:39
 msgid "Order"
-msgstr ""
+msgstr "命令"
 
 #: .\templates\accounts\my_orders.html:25
 msgid "Billing Name"
-msgstr ""
+msgstr "開票名稱"
 
 #: .\templates\accounts\my_orders.html:26
 msgid "Phone"
-msgstr ""
+msgstr "電話"
 
 #: .\templates\accounts\my_orders.html:27
 msgid "Order Total"
-msgstr ""
+msgstr "合計訂單"
 
 #: .\templates\accounts\my_orders.html:28
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: .\templates\accounts\order_detail.html:40
 msgid "Transaction"
-msgstr ""
+msgstr "交易"
 
 #: .\templates\accounts\order_detail.html:41
 msgid "Order Date"
-msgstr ""
+msgstr "訂購日期"
 
 #: .\templates\accounts\order_detail.html:42
 msgid "Status"
-msgstr ""
+msgstr "地位"
 
 #: .\templates\accounts\order_detail.html:52
 #: .\templates\orders\order_complete.html:61
 msgid "Products"
-msgstr ""
+msgstr "產品"
 
 #: .\templates\accounts\order_detail.html:53
 #: .\templates\orders\order_complete.html:62
 msgid "Qty"
-msgstr ""
+msgstr "數量"
 
 #: .\templates\accounts\order_detail.html:54
 #: .\templates\orders\order_complete.html:63
 msgid "Total"
-msgstr ""
+msgstr "全部的"
 
 #: .\templates\accounts\order_detail.html:93
 #: .\templates\orders\order_complete.html:102
 msgid "Thank you for shopping with us"
-msgstr ""
+msgstr "感謝您與我們購物"
 
 #: .\templates\accounts\register.html:19
 msgid "First name"
-msgstr ""
+msgstr "名"
 
 #: .\templates\accounts\register.html:23
 msgid "Last name"
-msgstr ""
+msgstr "姓"
 
 #: .\templates\accounts\register.html:31
 msgid "Email Address"
-msgstr ""
+msgstr "電子郵件地址"
 
 #: .\templates\accounts\register.html:41
 msgid "Create password"
-msgstr ""
+msgstr "創建密碼"
 
 #: .\templates\accounts\register.html:45
 msgid "Repeat password"
-msgstr ""
+msgstr "重複輸入密碼"
 
 #: .\templates\accounts\register.html:50
 msgid " Register "
-msgstr ""
+msgstr "登記"
 
 #: .\templates\accounts\register.html:57
 msgid "Have an account"
-msgstr ""
+msgstr "有一個賬戶"
 
 #: .\templates\accounts\register.html:57
 msgid "Log In"
-msgstr ""
+msgstr "登錄"
 
 #: .\templates\accounts\resetPassword.html:15
 msgid "Reset Password"
-msgstr ""
+msgstr "重設密碼"
 
 #: .\templates\accounts\resetPassword.html:28
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 #: .\templates\contact.html:27
 msgid "contact us"
-msgstr ""
+msgstr "聯繫我們"
 
 #: .\templates\home.html:28
 msgid "Popular products"
-msgstr ""
+msgstr "熱門產品"
 
 #: .\templates\home.html:54
 msgid "News"
-msgstr ""
+msgstr "消息"
 
 #: .\templates\home.html:90
 msgid "View"
-msgstr ""
+msgstr "看法"
 
 #: .\templates\includes\dashboard_sidebar.html:6
 #: .\templates\includes\navbar.html:101 .\templates\includes\navbar.html:114
 msgid "Dashboard"
-msgstr ""
+msgstr "儀表板"
 
 #: .\templates\includes\dashboard_sidebar.html:7
 msgid "My Orders"
-msgstr ""
+msgstr "我的訂單"
 
 #: .\templates\includes\dashboard_sidebar.html:8
 msgid "Edit Profile"
-msgstr ""
+msgstr "編輯個人資料"
 
 #: .\templates\includes\dashboard_sidebar.html:9
 msgid " Change Password"
-msgstr ""
+msgstr "更改密碼"
 
 #: .\templates\includes\navbar.html:16
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: .\templates\includes\navbar.html:40 .\templates\store\checkout.html:31
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #: .\templates\includes\navbar.html:41
 msgid "Contact"
-msgstr ""
+msgstr "接觸"
 
 #: .\templates\includes\navbar.html:41
 msgid "us"
-msgstr ""
+msgstr "我們"
 
 #: .\templates\includes\navbar.html:58
 msgid "All category"
-msgstr ""
+msgstr "所有類別"
 
 #: .\templates\includes\navbar.html:61 .\templates\store\store.html:37
 msgid "All Products"
-msgstr ""
+msgstr "所有產品"
 
 #: .\templates\includes\navbar.html:68
 msgid "Store"
-msgstr ""
+msgstr "店鋪"
 
 #: .\templates\includes\navbar.html:88
 msgid "Welcome guest"
-msgstr ""
+msgstr "歡迎來客"
 
 #: .\templates\includes\navbar.html:90
 msgid "Sign in"
-msgstr ""
+msgstr "登入"
 
 #: .\templates\includes\navbar.html:91
 msgid "Register"
-msgstr ""
+msgstr "登記"
 
 #: .\templates\includes\navbar.html:96
 msgid "Welcome"
-msgstr ""
+msgstr "歡迎"
 
 #: .\templates\includes\navbar.html:104
 msgid "More"
-msgstr ""
+msgstr "更多的"
 
 #: .\templates\includes\navbar.html:107
 msgid "Quotation"
-msgstr ""
+msgstr "引述"
 
 #: .\templates\includes\navbar.html:108
 msgid "Invoice"
-msgstr ""
+msgstr "發票"
 
 #: .\templates\includes\navbar.html:109
 msgid "Receipt"
-msgstr ""
+msgstr "收據"
 
 #: .\templates\includes\navbar.html:116
 msgid "Logout"
-msgstr ""
+msgstr "登出"
 
 #: .\templates\news\news.html:24
 msgid "News updates"
-msgstr ""
+msgstr "新聞更新"
 
 #: .\templates\news\news.html:54
 msgid "There are no news articles to display"
-msgstr ""
+msgstr "沒有要顯示的新聞文章"
 
 #: .\templates\orders\order_complete.html:9
 msgid "Payment Successful"
-msgstr ""
+msgstr "支付成功"
 
 #: .\templates\orders\order_complete.html:12
 msgid "Shop more"
-msgstr ""
+msgstr "選購更多"
 
 #: .\templates\orders\order_complete.html:34
 msgid "Invoiced To"
-msgstr ""
+msgstr "開票至"
 
 #: .\templates\orders\order_complete.html:85
 msgid "Sub Total"
-msgstr ""
+msgstr "小計"
 
 #: .\templates\orders\order_complete.html:89
 msgid "Tax"
-msgstr ""
+msgstr "稅"
 
 #: .\templates\orders\order_complete.html:94
 msgid "Grand Total"
-msgstr ""
+msgstr "累計"
 
 #: .\templates\orders\payments.html:11
 msgid "Review Your Order and Make Payment"
-msgstr ""
+msgstr "查看您的訂單並付款"
 
 #: .\templates\orders\payments.html:16 .\templates\store\checkout.html:16
 msgid "Billing Address"
-msgstr ""
+msgstr "帳單地址"
 
 #: .\templates\orders\payments.html:32
 msgid "Payment Method"
-msgstr ""
+msgstr "付款方式"
 
 #: .\templates\orders\payments.html:39
 msgid "Review Products"
-msgstr ""
+msgstr "評論產品"
 
 #: .\templates\orders\payments.html:44 .\templates\store\cart.html:24
 msgid "Product"
-msgstr ""
+msgstr "產品"
 
 #: .\templates\orders\payments.html:45 .\templates\store\cart.html:25
 #: .\templates\store\checkout.html:81
 msgid "Quantity"
-msgstr ""
+msgstr "數量"
 
 #: .\templates\orders\payments.html:46 .\templates\store\cart.html:26
 #: .\templates\store\checkout.html:82
 msgid "Price"
-msgstr ""
+msgstr "價格"
 
 #: .\templates\specialoffer.html:27
 msgid "Special Offers and events"
-msgstr ""
+msgstr "特別優惠和活動"
 
 #: .\templates\specialoffer.html:45
 msgid "View Details"
-msgstr ""
+msgstr "查看詳情"
 
 #: .\templates\specialoffer.html:52
 msgid "No result found. Please try again."
-msgstr ""
+msgstr "沒有找到結果。請再試一次。"
 
 #: .\templates\store\cart.html:12
 msgid "Your Shopping Cart is Empty"
-msgstr ""
+msgstr "你的購物車是空的"
 
 #: .\templates\store\cart.html:15 .\templates\store\checkout.html:123
 msgid "Continue Shopping"
-msgstr ""
+msgstr "繼續購物"
 
 #: .\templates\store\cart.html:72
 msgid "Remove"
-msgstr ""
+msgstr "消除"
 
 #: .\templates\store\checkout.html:41
 msgid "Address Line 1"
-msgstr ""
+msgstr "地址第一行"
 
 #: .\templates\store\checkout.html:45
 msgid "Address Line 2"
-msgstr ""
+msgstr "地址行 2"
 
 #: .\templates\store\checkout.html:64
 msgid "Order Note"
-msgstr ""
+msgstr "訂單備註"
 
 #: .\templates\store\checkout.html:122
 msgid "Place Order"
-msgstr ""
+msgstr "下訂單"
 
 #: .\templates\store\product_detail.html:60
 msgid "Out of Stock"
-msgstr ""
+msgstr "缺貨"
 
 #: .\templates\store\product_detail.html:62
 msgid "Add to Cart"
-msgstr ""
+msgstr "添加到購物車"
 
 #: .\templates\store\product_detail.html:80
 msgid "Write Your Review"
-msgstr ""
+msgstr "寫下您的評論"
 
 #: .\templates\store\product_detail.html:84
 msgid "How do you rate this product"
-msgstr ""
+msgstr "你如何評價這個產品"
 
 #: .\templates\store\product_detail.html:109
 msgid "You must purchase this product to post a review."
-msgstr ""
+msgstr "您必須購買此產品才能發表評論。"
 
 #: .\templates\store\product_detail.html:112
 msgid "Login now"
-msgstr ""
+msgstr "現在登錄"
 
 #: .\templates\store\product_detail.html:128
 msgid "reviews"
-msgstr ""
+msgstr "評論"
 
 #: .\templates\store\store.html:9
 msgid "Search Result"
-msgstr ""
+msgstr "搜索結果"
 
 #: .\templates\store\store.html:11
 msgid "Our Store"
-msgstr ""
+msgstr "我們的商店"
 
 #: .\templates\store\store.html:30
 msgid "Categories"
-msgstr ""
+msgstr "類別"
 
 #: .\templates\store\store.html:52
 msgid "Price range"
-msgstr ""
+msgstr "價格範圍"
 
 #: .\templates\store\store.html:60
 msgid "Min"
-msgstr ""
+msgstr "最小值"
 
 #: .\templates\store\store.html:91
 msgid "Apply"
-msgstr ""
+msgstr "申請"
 
 #: .\templates\store\store.html:104
 msgid "items found"
-msgstr ""
+msgstr "物品已找到"
 
 #: .\templates\store\store.html:133
 msgid "No result found. Please try again"
-msgstr ""
+msgstr "沒有找到結果。請再試一次"
 
 #: .\templates\store\store.html:143 .\templates\store\store.html:145
 msgid "Previous"
-msgstr ""
+msgstr "以前的"
 
 #: .\templates\store\store.html:157 .\templates\store\store.html:159
 msgid "Next"
-msgstr ""
+msgstr "下一個"

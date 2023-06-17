@@ -38,6 +38,17 @@ def contact(request):
     return render(request, 'contact.html')
 def success(request):
     return render(request,'success.html')
+
+def Quotation(request):
+    
+    return render(request, 'Quotation.html')
+
+def Invoice(request):
+    
+    return render(request, 'Invoice.html')
+def Receipt(request):
+    
+    return render(request, 'Receipt.html')
     
 #cancel view
 def cancel(request):

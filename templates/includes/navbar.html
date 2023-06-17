@@ -75,7 +75,9 @@
             <button class="btn btn-primary" type="submit">
               <i class="fa fa-search"></i>
             </button>
+
           </div>
+          
         </div>
     </form> <!-- search-wrap .end// -->
   </div> <!-- col.// -->
@@ -92,13 +94,25 @@
           {% else %}
           <div class="widget-header">
             <small class="title text-muted">{% trans "Welcome" %} {{user.first_name}}!</small>
+            {% if user.is_admin %} 
             <div>
 
-              {% if user.is_admin %}
+             
               <a href="/admin">{% trans "Dashboard" %}</a> <span class="dark-transp"> | </span>
+             
+              <a type="button" class="dropdown-toggle" data-toggle="dropdown">
+               {% trans "More"%}
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="{% url 'Quotation' %}">{% trans "Quotation"%} </a>
+                <a class="dropdown-item" href="{% url 'Invoice' %}">{% trans "Invoice"%} </a>
+                <a class="dropdown-item" href="{% url 'Receipt' %}">{% trans "Receipt"%} </a>
+              </div>
+              
+             
               {% else %}
               <a href="{% url 'dashboard' %}">{% trans "Dashboard" %}</a> <span class="dark-transp"> | </span>
-              {% endif %}
+             </div>  {% endif %}
               <a href="{% url 'logout' %}"> {% trans "Logout" %}</a>
             </div>
           </div>
