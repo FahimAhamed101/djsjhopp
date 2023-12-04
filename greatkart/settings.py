@@ -28,9 +28,9 @@ SECRET_KEY = 'f^=5pd1lso=1zxm*da!r$=@%o937%zv+4n7pvtgkoiuk3tkps('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',default=True,cast=bool)
 #'web-production-7c8d.up.railway.app'
-#ALLOWED_HOSTS = ['djangshop-production.up.railway.app']
+#ALLOWED_HOSTS = ['*']
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['web-production-a59d.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
