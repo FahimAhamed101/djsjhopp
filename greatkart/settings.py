@@ -30,7 +30,7 @@ DEBUG = config('DEBUG',default=True,cast=bool)
 #'web-production-7c8d.up.railway.app'
 #ALLOWED_HOSTS = ['*']
 
-ALLOWED_HOSTS = ['web-production-a59d.up.railway.app']
+ALLOWED_HOSTS = ['djangoshop.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
