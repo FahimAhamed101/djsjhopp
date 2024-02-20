@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product,  ReviewRating, ProductGallery
+from .models import Product,  ReviewRating, ProductGallery,Variation
 import admin_thumbnails
 
 @admin_thumbnails.thumbnail('image')
@@ -14,7 +14,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 
-admin.site.register(Product, ProductAdmin)
-
+admin.site.register(Product, ProductAdmin,)
+admin.site.register(Variation)
 admin.site.register(ReviewRating)
 admin.site.register(ProductGallery)
