@@ -243,8 +243,8 @@ STRIPE_SECRET_KEY = 'sk_test_51Le1xPC7VbGDnuTQKnNun4BoSH7W9vYTIceV6CVrn8AZZy0Kqh
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",]
+#STATICFILES_DIRS = [
+#    BASE_DIR / "static",]
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
