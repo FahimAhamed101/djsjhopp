@@ -1,0 +1,82 @@
+[
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "product_name": "shirt",
+    "slug": "shirt",
+    "description": "My Tshirt",
+    "price": 300,
+    "offerprice": 320,
+    "images": "photos/products/images.jfif",
+    "stock": 10,
+    "is_available": true,
+    "category": 1,
+    "created_date": "2025-01-11T18:20:54.994Z",
+    "modified_date": "2025-01-11T18:20:54.994Z",
+    "Is_offer_active": true
+  }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "bluetshirt",
+      "slug": "tshirt",
+      "description": "My blue Tshirt",
+      "price": 300,
+      "offerprice": 320,
+      "images": "photos/products/images_2.jfif",
+      "stock": 10,
+      "is_available": true,
+      "category": 1,
+      "created_date": "2025-01-11T18:20:54.994Z",
+      "modified_date": "2025-01-11T18:20:54.994Z",
+      "Is_offer_active": true
+    }
+  },
+{
+  "model": "store.variation",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "variation_category": "color",
+    "variation_value": "black",
+    "is_active": true,
+    "created_date": "2025-01-11T18:23:12.364Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "variation_category": "size",
+    "variation_value": "L",
+    "is_active": true,
+    "created_date": "2025-01-11T18:23:46.813Z"
+  }
+},
+{
+    "model": "store.variation",
+    "pk": 1,
+    "fields": {
+      "product": 2,
+      "variation_category": "color",
+      "variation_value": "black",
+      "is_active": true,
+      "created_date": "2025-01-11T18:23:12.364Z"
+    }
+  },
+  {
+    "model": "store.variation",
+    "pk": 2,
+    "fields": {
+      "product": 2,
+      "variation_category": "size",
+      "variation_value": "L",
+      "is_active": true,
+      "created_date": "2025-01-11T18:23:46.813Z"
+    }
+  }
+]

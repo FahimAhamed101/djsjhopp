@@ -181,6 +181,14 @@ DATABASES = {
          default=config('DATABASE_URL')
      )
 }
+"""DATABASES = {
+    'default': dj_database_url.parse(
+        'postgresql://admin_f26u_user:e1IHffzBbLfSBjFBvMp7t0ybBSlgkvVy@dpg-cu04db1opnds73e0iiq0-a.oregon-postgres.render.com/admin_f26u',
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
+}"""
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
