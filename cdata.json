@@ -1,0 +1,12 @@
+[
+{
+  "model": "category.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "tshirts",
+    "slug": "tshirts",
+    "description": "tshirts",
+    "cat_image": "photos/categories/images_2_kCgM15A.jfif"
+  }
+}
+]
